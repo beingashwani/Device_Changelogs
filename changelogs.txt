@@ -6,7 +6,20 @@ Maintianer: Ashwani
 
 Device Changelogs
 -------------------
+Date: 23-09-2025
+-------------------
+• Updated blobs from diting OS2.0.203.0.VLFMIXM.
+• [OPT] lower default max freq indices for balanced perf/power.
+• Switched back to lineageOS kernel.
+• Fixed Unnecessary Heating and battery drain in normal tasks.
+• Improved the thermals for better heat management.
+• Fixed the booting time of rom, now should be faster compared to previously.
+• Fixed tiktok app lag in some scenario.
+• Tuned the auto brightness for bit better experience.
+
+-----------------
 Date: 16-09-2025
+-----------------
 
 • Switched to Strix Kernel, thnx to @known_name123 fiqri bro.
 • Strix Kernel version 5.10.244.
