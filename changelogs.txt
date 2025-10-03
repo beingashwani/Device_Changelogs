@@ -6,6 +6,20 @@ Maintianer: Ashwani
 
 Device Changelogs
 -------------------
+Date: 03/10/2025
+-------------------
+- Fixed auto brightness fluctuations in white screen unnecessarily.
+- Adapted Bluetooth LE audio stuff from lineageOS changes.
+- Fixed the microphone cracking issue.
+- Fixed the bluetooth connect/disconnect happens after some usage.
+- Addressed the misbehave in touch boosting.
+- [BOOST] expanded the boost in more scenarios for better overall smooth experience.
+- Improved the dolby audio quality.
+- [OPT] added ODEX APP Optimisation for better app behaviour and latency. (optimises app on boot)
+- [STABILITY] Fixed the heating issue completely, no overheating now.
+
+
+-------------------
 Date: 23-09-2025
 -------------------
 • Updated blobs from diting OS2.0.203.0.VLFMIXM.
