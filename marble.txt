@@ -1,0 +1,67 @@
+===================
+AxionOS v2.0 
+===================
+Maintianer: Ashwani
+===================
+
+Device Changelogs
+-------------------
+Date: 09/11/2025
+-------------------
+- Powerhint: cleanup and refinement for better perf and battery backup.
+- Fixed the touch issues during the gaming.
+- Switch to pico gapps variant with aosp apps (remove Google apps yourself).
+- Updated blobs and firmware from OS2.0.209.0.VMRMIXM.
+- upstreamed kernel to version 5.10.245.
+- Decommonized vendor security patch level.
+- Added fix for auto brightness.
+- Aligned verified boot algorithms and rollback indices with stock.
+- Remove software OMX blobs.
+- sepolicy: Allow camera HAL to find quickcamera HAL.
+- sepolicy: Drop unused thermal_zone87 temp label.
+- sepolicy: Drop unused Goodix touchscreen wakeup label.
+- sepolicy: Cleaned up audio related policies.
+- sepolicy: Drop unused qcom-battery sysfs rules.
+- sepolicy: Cleaned up batterysecret rules using wakelock_use macro.
+- Improved the network reception for better frequency.
+- Added overlay for systemui restart option in advance restart menu.
+- Fixed the bluetooth audio slight delay after connecting for 1 or 2 seconds.
+
+-------------------
+Date: 03/10/2025
+-------------------
+- Fixed auto brightness fluctuations in white screen unnecessarily.
+- Adapted Bluetooth LE audio stuff from lineageOS changes.
+- Fixed the microphone cracking issue.
+- Fixed the bluetooth connect/disconnect happens after some usage.
+- Addressed the misbehave in touch boosting.
+- [BOOST] expanded the boost in more scenarios for better overall smooth experience.
+- Improved the dolby audio quality.
+- [OPT] added ODEX APP Optimisation for better app behaviour and latency. (optimises app on boot)
+- [STABILITY] Fixed the heating issue completely, no overheating now.
+
+
+-------------------
+Date: 23-09-2025
+-------------------
+• Updated blobs from diting OS2.0.203.0.VLFMIXM.
+• [OPT] lower default max freq indices for balanced perf/power.
+• Switched back to lineageOS kernel.
+• Fixed Unnecessary Heating and battery drain in normal tasks.
+• Improved the thermals for better heat management.
+• Fixed the booting time of rom, now should be faster compared to previously.
+• Fixed tiktok app lag in some scenario.
+• Tuned the auto brightness for bit better experience.
+
+-----------------
+Date: 16-09-2025
+-----------------
+
+• Switched to Strix Kernel, thnx to @known_name123 fiqri bro.
+• Strix Kernel version 5.10.244.
+• [OPT] refined interaction boosts for smoother UI.
+• [FIXUP] Unnecessary cpu/gpu goes aggressive on touch, cause unnecessary heat/drain issue.
+• Added some sepolicy/fixes related to alipay payment app freezes/problems.
+• Fixed selinux denial of WeChat fingerprint payment.
+• [STABILITY] Improved the thermal profiles.
+• [PERF] Refined boosts for the better gaming/performance.
