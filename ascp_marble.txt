@@ -1,0 +1,8 @@
+=========================
+ASCP - Marble Changelogs
+=========================
+Date: 19/11/2025
+----------------
+- initial ascp update based on qpr1 android 16.
+- enabled the 1k nits brightness by default.
+- Some mics changes in boosts.
