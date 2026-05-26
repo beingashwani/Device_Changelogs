@@ -1,0 +1,19 @@
+=================
+Date: 26/05/2026
+=================
+- sm8450-common: reduce uclamp.min value to 125.
+- sm8450-common: Switch to 12GB dalvik heap profile.
+- sm8450-common: powerhint: enhance expensive rendering performance profile.
+- sm8450-common: init: Update cpuset cores.
+- sm8450-common: surfaceflinger: adjust frame scheduling behavior.
+- sm8450-common: Tune the powerhint for balanced perf.
+- sm8450-common: powerhint: drop sched_busy_hyst tuning.
+- sm8450-common: powerhint: Reduce GPUIdleTimer value.
+- sm8450-common: powerhint: Reduce INTERACTION UclampTAMin values.
+- sm8450-common: powerhint: Reduce LAUNCH cpu duration to 3s.
+- sm8450-common: import task profiles configuration and cgroup.json from AOSPA.
+- sm8450-common: task-profiles: clean legacy profiles and optimize json.
+- sm8450-common: task_profiles: optimize scheduler policies.
+- sm8450-common: init: Always use lz4 for zram.
+- sm8450-common: init: Reset readahead values for 128 always.
+- sm8450-common: task-profiles: rebalance scheduling policies.
